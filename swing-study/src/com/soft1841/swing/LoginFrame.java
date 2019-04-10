@@ -65,7 +65,7 @@ public class LoginFrame extends JFrame {
         add(confirmButton);
         add(cancelButton);
         bgLabel = new JLabel();
-        Icon bgIcon = new ImageIcon(LoginFrame.class.getResource("/com/soft1841/thread/img/2.jpg"));
+        Icon bgIcon = new ImageIcon(LoginFrame.class.getResource("/img/2.jpg"));
         bgLabel.setIcon(bgIcon);
         bgLabel.setBounds(0,0,640,480);
         add(bgLabel);
