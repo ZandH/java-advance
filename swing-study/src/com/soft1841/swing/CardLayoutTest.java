@@ -26,17 +26,22 @@ public class CardLayoutTest extends JFrame implements ActionListener {
     }
 
     public void init() {
-        cardLayout = new CardLayout(); // 创建卡片布局对象
-        cardPanel = new JPanel();     // 创建一个容器，设置为卡片布局
+        // 创建卡片布局对象
+        cardLayout = new CardLayout();
+        // 创建一个容器，设置为卡片布局
+        cardPanel = new JPanel();
         cardPanel.setLayout(cardLayout);
-        for (int i = 0; i < 3; i++) {    // 循环调用三次，每次向容器中加入一个getPanel（）方法得到面板对象，并且编号为1,2,3，
+        // 循环调用三次，每次向容器中加入一个getPanel（）方法得到面板对象，并且编号为1,2,3，
+        for (int i = 0; i < 3; i++) {
             cardPanel.add(String.valueOf(i + 1), getPanel());
 
         }
-        add(cardPanel);  //容器加入窗体中间
+        add(cardPanel);
+        //容器加入窗体中间
 
 
-        buttonPanel = new JPanel(); // 底部按钮面板，放入两个按钮，面板加入窗体底部
+        buttonPanel = new JPanel();
+        // 底部按钮面板，放入两个按钮，面板加入窗体底部
         buttonPanel.setBackground(new Color(187, 222, 251));
         preButton = new JButton("上一张");
         nextButton = new JButton("下一张");

@@ -26,15 +26,15 @@ public class BufferedTest {
         try {
             FileReader fr = new FileReader(file);
             //创建BufferedReader类对象
-            BufferedReader bufr = new BufferedReader(fr);
+            BufferedReader buff = new BufferedReader(fr);
             String s = null;
             int i = 0;
             //如果文件的文本行数不为null，则进入循环
-            while ((s = bufr.readLine()) != null) {
+            while ((s = buff.readLine()) != null) {
                 i++;
                 System.out.println("第" + i + "行" + s);
             }
-            bufr.close();
+            buff.close();
             fr.close();
         } catch (IOException e) {
             e.printStackTrace();

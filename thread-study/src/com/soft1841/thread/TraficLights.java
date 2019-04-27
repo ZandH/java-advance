@@ -17,7 +17,8 @@ public class TraficLights extends JFrame {
     public TraficLights() {
         init();
         setTitle("模拟红绿灯变化场景");
-        setLocationRelativeTo(null);//窗体自动居中
+        setLocationRelativeTo(null);
+        //窗体自动居中
         setSize(100, 320);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }

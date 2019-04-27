@@ -8,6 +8,7 @@ public class Demo3 {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
+
                 System.out.println(Thread.currentThread().getName());
             }
         });

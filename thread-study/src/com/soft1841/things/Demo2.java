@@ -5,6 +5,7 @@ package com.soft1841.things;
 public class Demo2 implements Runnable {
     @Override
     public void run() {
+
         System.out.println(Thread.currentThread().getName());
     }
 

@@ -71,6 +71,7 @@ public class ImageFrame extends JFrame {
         add(namelabel,BorderLayout.EAST);
     }
     public static void main (String[] args) {
+
         new ImageFrame();
     }
 }
