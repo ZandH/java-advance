@@ -16,7 +16,7 @@ public class MyImageIcon extends JFrame {
         //创建一个标签
         JLabel j1 = new JLabel("这是一个JFrame窗体",JLabel.CENTER);
         //获取图片所在的URL
-        URL url = MyImageIcon.class.getResource("4.png");
+        URL url = MyImageIcon.class.getResource("top.png");
         Icon icon = new ImageIcon(url);
         j1.setHorizontalAlignment(SwingConstants.CENTER);
         j1.setOpaque(true);
