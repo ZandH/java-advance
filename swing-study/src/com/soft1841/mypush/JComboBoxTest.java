@@ -36,6 +36,7 @@ public class JComboBoxTest extends JFrame {
     }
 
     public static void main(String[] args) {
+
         new JComboBoxTest();
     }
 }
