@@ -15,6 +15,5 @@ public class Client6 {
         System.out.println("服务器输出内容："+str);
         buf.close();
         client.close();
-
     }
 }

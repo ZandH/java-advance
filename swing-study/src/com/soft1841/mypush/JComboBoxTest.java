@@ -12,8 +12,12 @@ import java.awt.event.ActionListener;
 public class JComboBoxTest extends JFrame {
     public JComboBoxTest(){
         //省略非关键代码
+        setLayout(null);
         JComboBox<String> comboBox = new JComboBox<String>();
+        comboBox.setLayout(null);
         comboBox.setBounds(110,11,80,21);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setVisible(true);
         comboBox.addItem("身份证");
         comboBox.addItem("军人证");
         comboBox.addItem("学生证");
