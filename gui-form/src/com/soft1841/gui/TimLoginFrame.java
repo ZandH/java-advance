@@ -28,7 +28,7 @@ public class TimLoginFrame {
         JFrame frame = new JFrame("TimLoginFrame");
         frame.setContentPane(new TimLoginFrame().mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(640,490);
+        frame.setSize(554,400);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }

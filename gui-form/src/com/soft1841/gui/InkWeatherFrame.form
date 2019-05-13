@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.soft1841.gui.InkWeatherFrame">
+  <grid id="27dc6" binding="mainPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1721" height="1027"/>
+    </constraints>
+    <properties>
+      <background color="-14143168"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="fafbc" binding="leftPanel" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-14143168"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8004b" class="javax.swing.JLabel" binding="Label1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="img/mojitianqi.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4730d" class="javax.swing.JLabel" binding="Label2">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="img/--.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c9953" class="javax.swing.JButton" binding="天气Button" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="天气"/>
+            </properties>
+          </component>
+          <component id="5b73a" class="javax.swing.JButton" binding="时景Button" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="时景"/>
+            </properties>
+          </component>
+          <component id="7696e" class="javax.swing.JButton" binding="button3">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="应用"/>
+            </properties>
+          </component>
+          <component id="cff18" class="javax.swing.JLabel" binding="Label3">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="img/shezhi (2).png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2ddba" class="javax.swing.JLabel" binding="Label4">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="img/shezhi (1).png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="6fdc9">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="ba0b4" binding="centerPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-14143168"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3768b" class="javax.swing.JLabel" binding="Label5">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="img/23-.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="7dcdf" binding="weatherPanel" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="0">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14143168"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="df4f1" class="javax.swing.JLabel" binding="Label6">
+                <constraints/>
+                <properties>
+                  <icon value="img/weather3.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="85c29" class="javax.swing.JLabel" binding="Label7">
+                <constraints/>
+                <properties>
+                  <icon value="img/weather2 (2).png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="5cb24" class="javax.swing.JLabel" binding="Label8">
+                <constraints/>
+                <properties>
+                  <icon value="img/weather2 (1).png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <scrollpane id="ff2dc" binding="gundongPanel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="1" height="1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-8996746"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="9626f" binding="huadongPanle" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <background color="-9193346"/>
+                  <foreground color="-8996746"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="dfa0e" class="javax.swing.JList" binding="list1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                        <item value="-"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+          <vspacer id="55bd9">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
