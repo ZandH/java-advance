@@ -10,7 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="jdbc-study" target="1.5" />
+      <module name="jdbc-study" target="8" />
+      <module name="summer-practice" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
